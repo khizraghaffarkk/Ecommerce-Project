@@ -1,0 +1,41 @@
+/* navbar change color link items */
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #fff;
+}
+
+/* navbar make hover effect on link items */
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color: #F0AAB1;
+}
+/* Navbar-brand font */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* background header Image responsive */
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+    margin-top: 55px;
+} 
+a{
+    color: #dc3545;
+}
+a:hover{
+    color: #F0AAB1;
+}
+.st{
+    font-size: 24px;
+}
+.animated{
+    animation-iteration-count:1;
+}
+.gallery img:hover{
+    filter: opacity(95%);
+}
+
+

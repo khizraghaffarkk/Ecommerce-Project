@@ -1,0 +1,77 @@
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+/* Dropdown Item Colo */
+.dropdown-menu{
+    background-color:#ff4f81;
+    border-bottom-width: 3px;
+    border-bottom-color:#F0AAB1;
+    border-top-width: 3px;
+    border-top-color:#F0AAB1;
+}
+.dropdown-item:hover{
+    background-color: #F0AAB1;
+}
+/* navbar background-color*/
+.navbar{
+    background-color: #ff4f81;
+    /*opacity: 0.5;*/
+}
+/* navbar change color link items */
+.navbar #myMenu .custom-nav .nav-item a{
+    color: #fff;
+    padding-left: 5px;
+}
+
+/* navbar make hover effect on link items */
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  /*  color: #F0AAB1; */
+  border-left: 2px solid #F0AAB1;
+  border-right: 2px solid #F0AAB1;
+  transition: 0.5s all;
+  font-size: larger;
+}
+/* Navbar-brand font */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* background header Image responsive */
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-radius: 0px;
+    margin-top: 100px;
+    object-fit: cover;
+} 
+a{
+    color: #ff4f81;
+    font-size: 16px;
+}
+a:hover{
+    color: #f13167;
+}
+.st{
+    font-size: 24px;
+}
+
+
+/* Dropdown col Image */
+.dropdown-image{
+    width: 800px;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+/* Team Background Color */
+.teamclass{
+    background-color: #ff4f81;
+}
+
+
+.dressclass{
+    background-color: white;
+}
